@@ -4,20 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="index.js">
+   <script src="index.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <p id="show1"></p>
-    <p id="show2"></p>
-    <p id="show3"></p>
-    <form action="">
-        <input type="number" id="year">
-        <input type="number" id="month">
-        <input type="number" id="day"><br>
-        <input type="button" value="convert" onclick="convert()">
-    </form>
-  t>
+      <div class="container">
+        <div class="top">
+            <div class="day center">
+                <label for="day">DAY</label><br>
+                <input type="number" id="day" placeholder="DD" required min="1" max="31">
+             </div>
+             <div class="month center">
+                <label for="month">MONTH</label><br>
+                <input type="number" id="month" placeholder="MM" required min="1" max="12">
+             </div>
+             <div class="year center">
+                <label for="year">YEAR</label><br>
+                <input type="number" id="year" placeholder="YYYY" required  min="1900">
+             </div>
+             <input type="button" onclick="convert()" value="convert" class="btn" style="background-color: rgba(104, 42, 248, 0.744);">
+        </div>
+        <div class="bottom">
+            <h1 ><span  id="show1">- -</span> years</h1>
+             <h1 ><span id="show2">- -</span> months</h1>
+              <h1  ><span id="show3">- -</span> Days</h1> 
+        </div>
+      
+      </div>
+    
+      
+    
     
 </body>
 </html>
