@@ -7,9 +7,6 @@ body{
     display: flex;
     justify-content: center;
     background-color:rgb(226, 226, 226);
-
-  
-    
 }
 .container{
    width: 500px;
@@ -64,10 +61,6 @@ h1{
      color: rgba(104, 42, 248, 0.744);
 }
 
-
-/* .center{
-    padding:10px 0px 0px 30px  ;
-} */
 
 
 
